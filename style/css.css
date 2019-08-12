@@ -1,0 +1,26 @@
+*{
+	padding: 0;
+	box-sizing: border-box;
+	margin: 0;
+}
+.member__heading{
+	margin-top: 50px;
+	margin-left: 50px;
+}
+.member__form{
+	margin-top: 50px;
+}
+.member__heading{
+	font-size: 35px;
+	color: lightblue;
+}
+.member__text{
+	background: darkslategrey;
+	color: white;
+	border: 0;
+	font-size: 25px;
+}
+.member__label{
+	font-size: 25px;
+	margin: 50px;
+}

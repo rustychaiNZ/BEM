@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<title>Membership Form</title>
+		<meta name="author" content="Russell">
+  		<meta name="description" content="description here">
+  		<meta name="keywords" content="keywords,here">
+  		<link rel="stylesheet" href="style/css.css" type="text/css">
+
+  	</head>
+	
+	<body>
+  
+		<div class="member col6 test3">
+
+			<form class="member__form">
+
+			<h1 class="member__heading">Membership Form</h1>
+
+				<div class="row">
+
+				<div class="col12 member__section">
+					<div class="col5 test1">
+						<label for="name" class="member__label">Name:</label>
+					</div>
+					<div class="col7 test2">
+						<input type="text" id="name" class="member__text member__text--name">
+					</div>
+						<br><br>
+
+					<div class="col5 test1">
+						<label for="email" class="member__label">Email:</label>
+					</div>
+					<div class="col7 test2">
+						<input type="text" id="email" class="member__text member__text--email">
+					</div>
+						<br><br>
+				</div>
+
+
+				<div class="col12 test4 member__section">
+					<div class="col5 test1">
+						<label for="place" class="member__label">Place:</label>
+					</div>
+					<div class="col7 test2">
+						<input type="radio" name="place" id="wellington" class="member__radio member__radio--place" checked> Wellington<br>
+						<input type="radio" name="place" id="christchurch" class="member__radio member__radio--place"> Christchurch<br>
+						<input type="radio" name="place" id="auckalnd" class="member__radio member__radio--place"> Auckland<br>
+						<input type="radio" name="place" id="dunedin" class="member__radio member__radio--place"> Dunedin<br>
+					</div>
+					<br><br>
+				</div>
+
+
+				<div class="col12 test4 member__section">
+					<div class="col5 test1">
+						<label for="hobbies" class="member__label">Hobby:</label>
+					</div>
+					<div class="col7 test2">
+						<input type="checkbox" id="hobbiesF1" class="member__checkbox member__checkbox--hobbies"> Fencing<br>
+						<input type="checkbox" id="hobbiesF2" class="member__checkbox member__checkbox--hobbies"> Fencing<br>
+						<input type="checkbox" id="hobbiesF3" class="member__checkbox member__checkbox--hobbies"> Fencing<br>
+						<input type="checkbox" id="hobbiesOF" class="member__checkbox member__checkbox--hobbies"> Or Fencing
+					</div>
+						<br><br>
+				</div>
+
+
+				<div class="col12 test4 member__section">
+					<div class="col5 test1">
+						<label for="activities" class="member__label">Reason for Visit:</label>
+					</div>
+					<div class="col7 test2">
+						<select id="reasonforvisit">
+
+							<option value="education">Educational Support</option>
+							<option value="financialsupport">Financial Support</option>
+							<option value="lifeskills">Life Skills</option>
+							<option value="careersupport">Career Support</option>
+
+						</select>
+					</div>
+						<br><br>
+				</div>
+
+				<div class="col12 test4">
+					<div class="col5 test1">
+						<label for="message" class="member__label">Message:</label>
+					</div>
+					<div class="col7 test2">
+						<textarea type="textarea" id="message" class="member__message" placeholder="Type your comment here"></textarea>
+					</div>
+					<br><br>
+				</div>
+
+			</div>
+
+			<div class="row">
+				<input type="submit" value="submit" class="member__submit">
+			</div>
+
+
+			</form>
+
+		</div>		
+
+  	</body>
+</html>
